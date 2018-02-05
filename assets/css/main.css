@@ -3,9 +3,7 @@
 @import "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600";
 
 /*
-	Projection by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+Sn0wFlake by DragonFire3640
 */
 
 /* Reset */
@@ -1991,8 +1989,8 @@
 		input[type="email"]:invalid,
 		input[type="tel"]:invalid,
 		select:invalid,
-		textarea:invalid {
-			box-shadow: none;
+		textarea:invalid:hover{
+		box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 		}
 
 		input[type="text"]:focus,
