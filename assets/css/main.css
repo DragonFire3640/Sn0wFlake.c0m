@@ -2514,7 +2514,7 @@ Sn0wFlake by DragonFire3640
 	input[type="reset"],
 	input[type="button"],
 	button,
-	.button {
+	.button:hover{
 		-moz-appearance: none;
 		-webkit-appearance: none;
 		-ms-appearance: none;
@@ -2540,6 +2540,8 @@ Sn0wFlake by DragonFire3640
 		text-decoration: none;
 		text-transform: uppercase;
 		white-space: nowrap;
+		-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
 	}
 
 		input[type="submit"]:hover,
